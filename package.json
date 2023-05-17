@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-cleanblog",
+  "version": "1.0.0",
+  "description": "\"# CleanBlog\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uyar42/CleanBlog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uyar42/CleanBlog/issues"
+  },
+  "homepage": "https://github.com/uyar42/CleanBlog#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "prettier": "2.8.8"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

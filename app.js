@@ -6,7 +6,7 @@ app.use(express.static('public'));
 
 const blog = { id: 1, title: 'Blog title', description: 'Blog description' };
 app.get('/', (req, res) => {
-  res.send(blog);
+  res.sendFile(path.resolve(__dirname, 'public/index.html'));
 });
 
 app.listen(port, () => {

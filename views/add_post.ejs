@@ -27,7 +27,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <form novalidate>
+          <form method="POST" action="/posts" novalidate>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
                 <label>Post Title</label>
@@ -35,6 +35,7 @@
                   type="text"
                   class="form-control"
                   placeholder="Name"
+                  name="title"
                   id="name"
                   required
                   data-validation-required-message="Please enter your name."
@@ -47,6 +48,7 @@
                 <label>Post Detail</label>
                 <textarea
                   rows="5"
+                  name="description"
                   class="form-control"
                   placeholder="Message"
                   id="message"
